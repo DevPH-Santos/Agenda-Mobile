@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Agenda TB Tarde</string>
+
+    //activity_contact
+    <string name="titlePage">Novo Contato</string>
+    <string name="nameLabel">Nome</string>
+    <string name="telefoneLabel">Telefone</string>
+    <string name="emailLable">Email</string>
+    <string name="deleteButton">Excluir</string>
+    <string name="saveButton">Salvar</string>
+
+</resources>

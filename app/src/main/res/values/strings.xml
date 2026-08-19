@@ -7,6 +7,7 @@
     <string name="telefoneLabel">Telefone</string>
     <string name="emailLable">Email</string>
     <string name="deleteButton">Excluir</string>
-    <string name="saveButton">Salvar</string>
+    <string name="saveButton">Salvar</string> //#1375D7FF
+    <string name="formDescription">Preencha os campos abaixo para cadastrar uma nova pessoa em sua agenda.</string>
 
 </resources>

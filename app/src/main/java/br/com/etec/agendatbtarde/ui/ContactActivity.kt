@@ -1,6 +1,7 @@
 package br.com.etec.agendatbtarde.ui
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -23,5 +24,14 @@ class ContactActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val editTextName:EditText = findViewById(R.id.editTextName)
+        val editTextPhone:EditText = findViewById(R.id.editTextPhone)
+        val editTextEmail:EditText = findViewById(R.id.editTextEmail)
+
+        findViewById<Button>(R.id.saveButton).setOnClickListener{
+
+        }
+
     }
 }

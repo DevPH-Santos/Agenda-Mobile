@@ -10,4 +10,8 @@
     <string name="saveButton">Salvar</string> //#1375D7FF
     <string name="formDescription">Preencha os campos abaixo para cadastrar uma nova pessoa em sua agenda.</string>
 
+
+    //activity_main
+    <string name="newButtonMain">Novo</string>
+
 </resources>

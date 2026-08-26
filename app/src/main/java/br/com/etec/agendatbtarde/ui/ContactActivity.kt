@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import br.com.etec.agendatbtarde.R
+import br.com.etec.agendatbtarde.models.Contact
 
 class ContactActivity : AppCompatActivity() {
 
@@ -30,6 +31,16 @@ class ContactActivity : AppCompatActivity() {
         val editTextEmail:EditText = findViewById(R.id.editTextEmail)
 
         findViewById<Button>(R.id.saveButton).setOnClickListener{
+
+            val contact = Contact(
+
+                name = editTextName.text.toString(),
+                phone = editTextPhone.text.toString(),
+                email = editTextEmail.text.toString()
+
+            )
+
+
 
         }
 

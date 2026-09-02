@@ -2,6 +2,8 @@ package br.com.etec.agendatbtarde.services
 
 import android.util.Log
 import br.com.etec.agendatbtarde.models.Contact
+import com.google.firebase.Firebase
+import com.google.firebase.firestore.firestore
 
 class ContactService {
 

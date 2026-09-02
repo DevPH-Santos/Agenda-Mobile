@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import br.com.etec.agendatbtarde.R
 import br.com.etec.agendatbtarde.models.Contact
+import br.com.etec.agendatbtarde.services.ContactService
 
 class ContactActivity : AppCompatActivity() {
 
@@ -40,9 +41,9 @@ class ContactActivity : AppCompatActivity() {
 
             )
 
-
+            val contactService = ContactService()
+            contactService.store(contact)
 
         }
-
     }
 }
